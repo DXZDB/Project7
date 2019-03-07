@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		37356B262230AE45006A28C2 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37356B252230AE45006A28C2 /* DetailViewController.swift */; };
 		377079DB222F6CC4000C15A8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377079DA222F6CC4000C15A8 /* AppDelegate.swift */; };
 		377079DD222F6CC4000C15A8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377079DC222F6CC4000C15A8 /* ViewController.swift */; };
 		377079E0222F6CC4000C15A8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 377079DE222F6CC4000C15A8 /* Main.storyboard */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		37356B252230AE45006A28C2 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		377079D7222F6CC4000C15A8 /* Project7.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Project7.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		377079DA222F6CC4000C15A8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		377079DC222F6CC4000C15A8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -58,6 +60,7 @@
 		377079D9222F6CC4000C15A8 /* Project7 */ = {
 			isa = PBXGroup;
 			children = (
+				37356B252230AE45006A28C2 /* DetailViewController.swift */,
 				377079DA222F6CC4000C15A8 /* AppDelegate.swift */,
 				377079DC222F6CC4000C15A8 /* ViewController.swift */,
 				377079DE222F6CC4000C15A8 /* Main.storyboard */,
@@ -143,6 +146,7 @@
 			files = (
 				377079DD222F6CC4000C15A8 /* ViewController.swift in Sources */,
 				377079EF222F714C000C15A8 /* Petitions.swift in Sources */,
+				37356B262230AE45006A28C2 /* DetailViewController.swift in Sources */,
 				377079DB222F6CC4000C15A8 /* AppDelegate.swift in Sources */,
 				377079ED222F709B000C15A8 /* Petition.swift in Sources */,
 			);

@@ -1,5 +1,5 @@
 //
-//  AppDelegate.swift
+//  AppDelegate.swift // controls the way our app
 //  Project7
 //
 //  Created by Dan on 3/5/19.
@@ -15,7 +15,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        if let tabBarController = window?.rootViewController as?
+            UITabBarController {
+            let storyboard = UIStoryboard(name: "Main", bundle: nil)
+            let vc = storyboard.instantiateViewController(withIdentifier: "NavController")
+            vc.tabBarItem = UITabBarItem(tabBarSystemItem: .topRated, tag: 1)
+            tabBarController.viewControllers?.append(vc) //show on screen
+        }
+
+
         return true
     }
 
