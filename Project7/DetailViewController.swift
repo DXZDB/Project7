@@ -30,9 +30,13 @@ class DetailViewController: UIViewController {
         <meta name= "viewport", content= "width=device-width, initial-scale=1">
         <style> body { font-size: 150%; } </style>
         </head>
+        <red>
+        <h2 style="color:Tomato;">
         <body>
         \(detailItem.body)
         </body>
+        </h2>
+        </red>
         </html>
         """
         
