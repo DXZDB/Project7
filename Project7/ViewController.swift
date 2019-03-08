@@ -15,6 +15,9 @@ class ViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: .bookmarks, target: self, action: #selector(runCredits))
+
+        
         let urlString: String
             
         if navigationController?.tabBarItem.tag == 0 {
@@ -41,6 +44,15 @@ class ViewController: UITableViewController {
         present (ac, animated: true)
     }
     
+    @objc func runCredits(_ sender: Any) {
+        
+        let ac = UIAlertController(title: "Brought to you By: \n 'We The People' \n API of the Whitehouse ", message: nil, preferredStyle: .alert)
+        
+        ac.addAction(UIAlertAction(title: "Continue", style: .default))
+        
+        present(ac, animated: true)
+
+    }
     
     func parse(json: Data) {
         let decoder = JSONDecoder()
